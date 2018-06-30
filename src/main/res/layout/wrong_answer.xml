@@ -1,0 +1,249 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/holo_blue_light">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exam Prep Correction"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1"
+            android:textStyle="italic|bold"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/background_dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="what is the capital of zamfara state?"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option1"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option2"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option3"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/q1_answer"
+                android:background="@android:color/holo_green_dark"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option4"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 2"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textStyle="italic|bold"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/background_dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="when was steve Jobs born?"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1960"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1943"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sometime in the last century?!"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/q2_answer"
+                android:background="@android:color/holo_green_dark"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't know bro!"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 3"
+            android:textStyle="italic|bold"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/background_dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="where is Ohio state?"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Madagascar"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Canada"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="United States?!"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/q3_answer"
+                android:background="@android:color/holo_green_dark"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="North Korea"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 4"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textStyle="italic|bold"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/background_dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who founded facebook?"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ice Prince"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wiz Khalifa"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marcel Buer"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mark Zuckerberg!"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/q4_answer"
+                android:background="@android:color/holo_green_dark"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Go back to quiz"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:onClick="returnQuiz"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:layout_margin="12dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
